@@ -3,9 +3,17 @@ import { SiFacebook, SiInstagram, SiLinkedin, SiX } from "react-icons/si";
 
 interface FooterProps {
   t: Translations;
+  onOpenTerms: () => void;
+  onOpenPrivacy: () => void;
+  onOpenGdpr: () => void;
 }
 
-export function Footer({ t }: FooterProps) {
+export function Footer({
+  t,
+  onOpenTerms,
+  onOpenPrivacy,
+  onOpenGdpr,
+}: FooterProps) {
   const year = new Date().getFullYear();
 
   return (
@@ -26,38 +34,38 @@ export function Footer({ t }: FooterProps) {
             </p>
             <p className="text-white/40 text-xs">
               <a
-                href="mailto:wishlist@kwtd.app"
+                href="mailto:contact@kwtd.eu"
                 className="hover:text-white/70 transition-colors"
               >
-                wishlist@kwtd.app
+                contact@kwtd.eu
               </a>
             </p>
           </div>
 
-          {/* Links */}
+          {/* Legal Links */}
           <div className="flex flex-col gap-4">
             <div className="flex flex-col gap-2">
               <button
                 type="button"
+                onClick={onOpenPrivacy}
                 className="text-white/60 text-sm hover:text-white transition-colors text-left"
-                data-ocid="footer.link"
               >
                 {t.footerPrivacy}
               </button>
               <button
                 type="button"
+                onClick={onOpenTerms}
                 className="text-white/60 text-sm hover:text-white transition-colors text-left"
-                data-ocid="footer.link"
               >
                 {t.footerTerms}
               </button>
-              <a
-                href="mailto:wishlist@kwtd.app"
-                className="text-white/60 text-sm hover:text-white transition-colors"
-                data-ocid="footer.link"
+              <button
+                type="button"
+                onClick={onOpenGdpr}
+                className="text-white/60 text-sm hover:text-white transition-colors text-left"
               >
-                {t.footerContact}
-              </a>
+                {t.footerGdpr}
+              </button>
             </div>
           </div>
 
@@ -70,7 +78,6 @@ export function Footer({ t }: FooterProps) {
                 rel="noopener noreferrer"
                 aria-label="Facebook"
                 className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors"
-                data-ocid="footer.link"
               >
                 <SiFacebook className="w-4 h-4" />
               </a>
@@ -80,7 +87,6 @@ export function Footer({ t }: FooterProps) {
                 rel="noopener noreferrer"
                 aria-label="X (Twitter)"
                 className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors"
-                data-ocid="footer.link"
               >
                 <SiX className="w-4 h-4" />
               </a>
@@ -90,7 +96,6 @@ export function Footer({ t }: FooterProps) {
                 rel="noopener noreferrer"
                 aria-label="Instagram"
                 className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors"
-                data-ocid="footer.link"
               >
                 <SiInstagram className="w-4 h-4" />
               </a>
@@ -100,7 +105,6 @@ export function Footer({ t }: FooterProps) {
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
                 className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors"
-                data-ocid="footer.link"
               >
                 <SiLinkedin className="w-4 h-4" />
               </a>
@@ -112,6 +116,9 @@ export function Footer({ t }: FooterProps) {
         <div className="mt-10 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-white/40 text-xs">
             &copy; {year} KWTD &mdash; Know What To Do. All rights reserved.
+          </p>
+          <p className="text-white/30 text-xs">
+            STOWARZYSZENIE SPLET &bull; KRS 0001196062 &bull; NIP 7011278984
           </p>
         </div>
       </div>

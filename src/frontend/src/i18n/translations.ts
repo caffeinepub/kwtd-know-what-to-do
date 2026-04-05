@@ -155,6 +155,10 @@ export interface Translations {
   footerTerms: string;
   footerContact: string;
   footerBuiltWith: string;
+  footerGdpr: string;
+  cookieBannerText: string;
+  cookieAccept: string;
+  cookieDecline: string;
 }
 
 const pl: Translations = {
@@ -309,6 +313,11 @@ const pl: Translations = {
   footerTerms: "Regulamin",
   footerContact: "Kontakt",
   footerBuiltWith: "",
+  footerGdpr: "RODO/GDPR",
+  cookieBannerText:
+    "Używamy plików cookie, aby zapewnić najlepsze wrażenia z korzystania z naszej strony. Możesz zaakceptować lub odrzucić pliki cookie inne niż niezbędne.",
+  cookieAccept: "Akceptuj",
+  cookieDecline: "Odrzuć",
 };
 
 const en: Translations = {
@@ -462,6 +471,11 @@ const en: Translations = {
   footerTerms: "Terms of Service",
   footerContact: "Contact",
   footerBuiltWith: "",
+  footerGdpr: "RODO/GDPR",
+  cookieBannerText:
+    "We use cookies to ensure the best experience on our website. You can accept or decline non-essential cookies.",
+  cookieAccept: "Accept",
+  cookieDecline: "Decline",
 };
 
 const de: Translations = {
@@ -813,6 +827,11 @@ const ru: Translations = {
   footerTerms: "Условия использования",
   footerContact: "Контакт",
   footerBuiltWith: "",
+  footerGdpr: "RODO/GDPR",
+  cookieBannerText:
+    "Мы используем файлы cookie для обеспечения наилучшего опыта на нашем сайте. Вы можете принять или отклонить необязательные файлы cookie.",
+  cookieAccept: "Принять",
+  cookieDecline: "Отклонить",
 };
 
 const uk: Translations = {
@@ -954,6 +973,11 @@ const uk: Translations = {
   footerTerms: "Умови використання",
   footerContact: "Контакт",
   footerBuiltWith: "",
+  footerGdpr: "RODO/GDPR",
+  cookieBannerText:
+    "Ми використовуємо файли cookie для забезпечення найкращого досвіду на нашому сайті. Ви можете прийняти або відхилити необов'язкові файли cookie.",
+  cookieAccept: "Прийняти",
+  cookieDecline: "Відхилити",
 };
 
 const it: Translations = {
@@ -1105,6 +1129,11 @@ const it: Translations = {
   footerTerms: "Termini di servizio",
   footerContact: "Contatto",
   footerBuiltWith: "",
+  footerGdpr: "RODO/GDPR",
+  cookieBannerText:
+    "Utilizziamo i cookie per garantire la migliore esperienza sul nostro sito. Puoi accettare o rifiutare i cookie non essenziali.",
+  cookieAccept: "Accetta",
+  cookieDecline: "Rifiuta",
 };
 
 const nl: Translations = {
@@ -1252,6 +1281,11 @@ const nl: Translations = {
   footerTerms: "Servicevoorwaarden",
   footerContact: "Contact",
   footerBuiltWith: "",
+  footerGdpr: "RODO/GDPR",
+  cookieBannerText:
+    "Wij gebruiken cookies om de beste ervaring op onze website te bieden. U kunt niet-essentiële cookies accepteren of weigeren.",
+  cookieAccept: "Accepteren",
+  cookieDecline: "Weigeren",
 };
 
 const cs: Translations = {
@@ -1397,6 +1431,11 @@ const cs: Translations = {
   footerTerms: "Podmínky služby",
   footerContact: "Kontakt",
   footerBuiltWith: "",
+  footerGdpr: "RODO/GDPR",
+  cookieBannerText:
+    "Používáme soubory cookie, abychom zajistili nejlepší zážitek na našem webu. Můžete přijmout nebo odmítnout nepotřebné soubory cookie.",
+  cookieAccept: "Přijmout",
+  cookieDecline: "Odmítnout",
 };
 
 const sk: Translations = {
@@ -1543,6 +1582,11 @@ const sk: Translations = {
   footerTerms: "Podmienky služby",
   footerContact: "Kontakt",
   footerBuiltWith: "",
+  footerGdpr: "RODO/GDPR",
+  cookieBannerText:
+    "Používame súbory cookie na zabezpečenie najlepšieho zážitku na našom webe. Môžete prijať alebo odmietnuť nepotrebné súbory cookie.",
+  cookieAccept: "Prijať",
+  cookieDecline: "Odmietnuť",
 };
 
 const hu: Translations = {
@@ -1694,6 +1738,11 @@ const hu: Translations = {
   footerTerms: "Szolgáltatási feltételek",
   footerContact: "Kapcsolat",
   footerBuiltWith: "",
+  footerGdpr: "RODO/GDPR",
+  cookieBannerText:
+    "Sütiket használunk a legjobb webes élmény biztosítása érdekében. Elfogadhatja vagy visszautasíthatja a nem szükséges sütiket.",
+  cookieAccept: "Elfogad",
+  cookieDecline: "Elutasít",
 };
 
 const ro: Translations = {
@@ -1844,6 +1893,11 @@ const ro: Translations = {
   footerTerms: "Termeni și condiții",
   footerContact: "Contact",
   footerBuiltWith: "",
+  footerGdpr: "RODO/GDPR",
+  cookieBannerText:
+    "Folosim cookie-uri pentru a asigura cea mai bună experiență pe site-ul nostru. Puteți accepta sau refuza cookie-urile non-esențiale.",
+  cookieAccept: "Accept",
+  cookieDecline: "Refuz",
 };
 
 const bg: Translations = {
@@ -1992,6 +2046,11 @@ const bg: Translations = {
   footerTerms: "Условия за ползване",
   footerContact: "Контакт",
   footerBuiltWith: "",
+  footerGdpr: "RODO/GDPR",
+  cookieBannerText:
+    "Използваме бисквитки, за да осигурим най-доброто изживяване на нашия сайт. Можете да приемете или откажете незадължителните бисквитки.",
+  cookieAccept: "Приемам",
+  cookieDecline: "Отказвам",
 };
 
 const hr: Translations = {
@@ -2138,6 +2197,11 @@ const hr: Translations = {
   footerTerms: "Uvjeti korištenja",
   footerContact: "Kontakt",
   footerBuiltWith: "",
+  footerGdpr: "RODO/GDPR",
+  cookieBannerText:
+    "Koristimo kolačiće kako bismo osigurali najbolje iskustvo na našoj web stranici. Možete prihvatiti ili odbiti neobavezne kolačiće.",
+  cookieAccept: "Prihvati",
+  cookieDecline: "Odbij",
 };
 
 const sr: Translations = {
@@ -2283,6 +2347,11 @@ const sr: Translations = {
   footerTerms: "Uslovi korišćenja",
   footerContact: "Kontakt",
   footerBuiltWith: "",
+  footerGdpr: "RODO/GDPR",
+  cookieBannerText:
+    "Koristimo kolačiće kako bismo osigurali najbolje iskustvo na našoj web stranici. Možete prihvatiti ili odbiti neobavezne kolačiće.",
+  cookieAccept: "Prihvati",
+  cookieDecline: "Odbij",
 };
 
 const sl: Translations = {
@@ -2426,6 +2495,11 @@ const sl: Translations = {
   footerTerms: "Pogoji storitve",
   footerContact: "Kontakt",
   footerBuiltWith: "",
+  footerGdpr: "RODO/GDPR",
+  cookieBannerText:
+    "Uporabljamo piškotke za zagotovitev najboljše izkušnje na naši spletni strani. Sprejemate ali zavrnete neobvezne piškotke.",
+  cookieAccept: "Sprejmi",
+  cookieDecline: "Zavrni",
 };
 const lt: Translations = {
   langCode: "lt",
@@ -2568,6 +2642,11 @@ const lt: Translations = {
   footerTerms: "Paslaugų teikimo sąlygos",
   footerContact: "Kontaktai",
   footerBuiltWith: "",
+  footerGdpr: "RODO/GDPR",
+  cookieBannerText:
+    "Naudojame slapukus, kad užtikrintume geriausią patirtį mūsų svetainėje. Galite priimti arba atmesti nebūtinus slapukus.",
+  cookieAccept: "Priimti",
+  cookieDecline: "Atmesti",
 };
 
 const lv: Translations = {
@@ -2714,6 +2793,11 @@ const lv: Translations = {
   footerTerms: "Pakalpojumu noteikumi",
   footerContact: "Kontakti",
   footerBuiltWith: "",
+  footerGdpr: "RODO/GDPR",
+  cookieBannerText:
+    "Mēs izmantojam sīkdatnes, lai nodrošinātu vislabāko pieredzi mūsu vietnē. Jūs varat pieņemt vai noraidīt nebūtiskās sīkdatnes.",
+  cookieAccept: "Pieņemt",
+  cookieDecline: "Noraidīt",
 };
 
 const et: Translations = {
@@ -2858,6 +2942,11 @@ const et: Translations = {
   footerTerms: "Teenuse tingimused",
   footerContact: "Kontakt",
   footerBuiltWith: "",
+  footerGdpr: "RODO/GDPR",
+  cookieBannerText:
+    "Kasutame küpsiseid, et tagada parim kogemus meie veebisaidil. Saate mittekohustuslikud küpsised aktsepteerida või tagasi lükata.",
+  cookieAccept: "Nõustu",
+  cookieDecline: "Keeldu",
 };
 
 const fi: Translations = {
@@ -3007,6 +3096,11 @@ const fi: Translations = {
   footerTerms: "Palveluehdot",
   footerContact: "Yhteystiedot",
   footerBuiltWith: "",
+  footerGdpr: "RODO/GDPR",
+  cookieBannerText:
+    "Käytämme evästeitä parhaan kokemuksen varmistamiseksi verkkosivustollamme. Voit hyväksyä tai hylätä ei-välttämättömät evästeet.",
+  cookieAccept: "Hyväksy",
+  cookieDecline: "Hylkää",
 };
 
 const sv: Translations = {
@@ -3150,6 +3244,11 @@ const sv: Translations = {
   footerTerms: "Användarvillkor",
   footerContact: "Kontakt",
   footerBuiltWith: "",
+  footerGdpr: "RODO/GDPR",
+  cookieBannerText:
+    "Vi använder cookies för att säkerställa den bästa upplevelsen på vår webbplats. Du kan acceptera eller avvisa icke-nödvändiga cookies.",
+  cookieAccept: "Acceptera",
+  cookieDecline: "Avvisa",
 };
 
 const da: Translations = {
@@ -3294,6 +3393,11 @@ const da: Translations = {
   footerTerms: "Servicevilkår",
   footerContact: "Kontakt",
   footerBuiltWith: "",
+  footerGdpr: "RODO/GDPR",
+  cookieBannerText:
+    "Vi bruger cookies for at sikre den bedste oplevelse på vores hjemmeside. Du kan acceptere eller afvise ikke-nødvendige cookies.",
+  cookieAccept: "Accepter",
+  cookieDecline: "Afvis",
 };
 
 const no: Translations = {
@@ -3436,6 +3540,11 @@ const no: Translations = {
   footerTerms: "Tjenestevilkår",
   footerContact: "Kontakt",
   footerBuiltWith: "",
+  footerGdpr: "RODO/GDPR",
+  cookieBannerText:
+    "Vi bruker informasjonskapsler for å sikre den beste opplevelsen på nettstedet vårt. Du kan godta eller avslå ikke-nødvendige informasjonskapsler.",
+  cookieAccept: "Godta",
+  cookieDecline: "Avslå",
 };
 
 export const translations: Record<LanguageCode, Translations> = {
