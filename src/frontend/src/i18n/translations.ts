@@ -294,7 +294,7 @@ const pl: Translations = {
     "KWTD (Know What To Do) to inteligentna platforma edukacyjna pomagająca ludziom przygotować się na sytuacje kryzysowe: pożary, powodzie, trzęsienia ziemi i inne zagrożenia.",
   faq2Q: "Kiedy aplikacja będzie dostępna?",
   faq2A:
-    "Planujemy premierę w 2025 roku. Zostaw swój email, aby jako pierwszy dowiedzieć się o starcie.",
+    "Planujemy pełne uruchomienie aplikacji w czerwcu 2026 roku. Zostaw email, aby dowiedzieć się jako pierwszy.",
   faq3Q: "Czy KWTD będzie bezpłatne?",
   faq3A:
     "Podstawowe funkcje będą dostępne bezpłatnie. Planujemy też wersję Premium z rozszerzonymi planami awaryjnymi.",
@@ -447,7 +447,7 @@ const en: Translations = {
     "KWTD (Know What To Do) is a smart educational platform helping people prepare for emergency situations: fires, floods, earthquakes, and other threats.",
   faq2Q: "When will the app be available?",
   faq2A:
-    "We're planning to launch in 2025. Leave your email to be the first to know.",
+    "We're planning to launch the full app in June 2026. Leave your email to be the first to know.",
   faq3Q: "Will KWTD be free?",
   faq3A:
     "Basic features will be free. We also plan a Premium version with extended emergency plans.",
@@ -524,6 +524,9 @@ const de: Translations = {
   comingSoonSubmit: "Ich möchte der Erste sein!",
   comingSoonEmailPlaceholder: "ihre@email.com",
   faqTitle: "Häufig gestellte Fragen",
+  faq2Q: "Wann ist die App verfügbar?",
+  faq2A:
+    "Wir planen die vollständige App-Einführung im Juni 2026. Hinterlassen Sie Ihre E-Mail, um als Erster informiert zu werden.",
   footerTagline: "Wissen rettet Leben.",
   footerPrivacy: "Datenschutz",
   footerTerms: "AGB",
@@ -594,6 +597,9 @@ const fr: Translations = {
   comingSoonSubmit: "Je veux être le premier!",
   comingSoonEmailPlaceholder: "votre@email.com",
   faqTitle: "Questions fréquentes",
+  faq2Q: "Quand l'application sera-t-elle disponible?",
+  faq2A:
+    "Nous prévoyons de lancer l'application complète en juin 2026. Laissez votre email pour être le premier informé.",
   footerTagline: "La connaissance sauve des vies.",
   footerPrivacy: "Politique de confidentialité",
   footerTerms: "Conditions d'utilisation",
@@ -662,6 +668,9 @@ const es: Translations = {
   comingSoonSubmit: "¡Quiero ser el primero!",
   comingSoonEmailPlaceholder: "tu@email.com",
   faqTitle: "Preguntas frecuentes",
+  faq2Q: "¿Cuándo estará disponible la app?",
+  faq2A:
+    "Planeamos lanzar la aplicación completa en junio de 2026. Deja tu email para ser el primero en saberlo.",
   footerTagline: "El conocimiento salva vidas.",
   footerPrivacy: "Política de privacidad",
   footerTerms: "Términos de servicio",
@@ -789,7 +798,8 @@ const ru: Translations = {
   faq1A:
     "KWTD (Know What To Do) — умная образовательная платформа для подготовки к ЧС.",
   faq2Q: "Когда будет доступно приложение?",
-  faq2A: "Планируем запуск в 2025 году. Оставьте email, чтобы узнать первым.",
+  faq2A:
+    "Планируем запуск полноценного приложения в июне 2026 году. Оставьте email, чтобы узнать первым.",
   faq3Q: "KWTD будет бесплатным?",
   faq3A: "Базовые функции будут бесплатными. Планируем Premium версию.",
   faq4Q: "На каких платформах будет доступно?",
@@ -929,7 +939,8 @@ const uk: Translations = {
   faq1A:
     "KWTD (Know What To Do) — розумна освітня платформа для підготовки до НС.",
   faq2Q: "Коли буде доступний застосунок?",
-  faq2A: "Плануємо запуск у 2025 році. Залиш email, щоб дізнатися першим.",
+  faq2A:
+    "Плануємо повноцінний запуск застосунку у червні 2026 року. Залиш email, щоб дізнатися першим.",
   faq3Q: "KWTD буде безкоштовним?",
   faq3A: "Базові функції будуть безкоштовними. Плануємо Premium версію.",
   faq4Q: "На яких платформах буде доступно?",
@@ -1080,7 +1091,7 @@ const it: Translations = {
     "KWTD (Know What To Do) è una piattaforma educativa intelligente per prepararsi alle emergenze.",
   faq2Q: "Quando sarà disponibile l'app?",
   faq2A:
-    "Prevediamo il lancio nel 2025. Lascia la tua email per sapere per primo.",
+    "Prevediamo il lancio completo a giugno 2026. Lascia la tua email per sapere per primo.",
   faq3Q: "KWTD sarà gratuito?",
   faq3A:
     "Le funzionalità di base saranno gratuite. Pianifichiamo anche una versione Premium.",
@@ -1228,7 +1239,7 @@ const nl: Translations = {
     "KWTD (Know What To Do) is een slim educatief platform dat mensen helpt zich voor te bereiden op noodsituaties.",
   faq2Q: "Wanneer is de app beschikbaar?",
   faq2A:
-    "We plannen de lancering in 2025. Laat uw e-mail achter om als eerste te horen.",
+    "We plannen de volledige app-lancering in juni 2026. Laat uw e-mail achter om als eerste te horen.",
   faq3Q: "Is KWTD gratis?",
   faq3A: "Basisfuncties zijn gratis. We plannen ook een Premium-versie.",
   faq4Q: "Op welke platforms is het beschikbaar?",
@@ -1372,7 +1383,7 @@ const cs: Translations = {
     "KWTD (Know What To Do) je inteligentní vzdělávací platforma pro přípravu na nouzové situace.",
   faq2Q: "Kdy bude aplikace dostupná?",
   faq2A:
-    "Plánujeme spuštění v roce 2025. Zanechte svůj e-mail, abyste se dozvěděli jako první.",
+    "Plánujeme plné spuštění v červnu 2026. Zanechte svůj e-mail, abyste se dozvěděli jako první.",
   faq3Q: "Bude KWTD zdarma?",
   faq3A: "Základní funkce budou zdarma. Plánujeme také verzi Premium.",
   faq4Q: "Na jakých platformách bude dostupná?",
@@ -1518,7 +1529,7 @@ const sk: Translations = {
     "KWTD (Know What To Do) je inteligentná vzdelávacia platforma pre prípravu na núdzové situácie.",
   faq2Q: "Kedy bude aplikácia dostupná?",
   faq2A:
-    "Plánujeme spustenie v roku 2025. Zanechajte svoj e-mail, aby ste sa dozvedeli ako prvý.",
+    "Plánujeme plné spustenie v júni 2026. Zanechajte svoj e-mail, aby ste sa dozvedeli ako prvý.",
   faq3Q: "Bude KWTD zadarmo?",
   faq3A: "Základné funkcie budú zadarmo. Plánujeme aj verziu Premium.",
   faq4Q: "Na akých platformách bude dostupná?",
@@ -1669,7 +1680,7 @@ const hu: Translations = {
     "A KWTD (Know What To Do) egy intelligens oktatási platform vészhelyzetekre való felkészüléshez.",
   faq2Q: "Mikor lesz elérhető az alkalmazás?",
   faq2A:
-    "2025-re tervezzük az indulást. Hagyja meg e-mail címét, hogy elsőként értesüljön.",
+    "2026 júniusára tervezzük a teljes alkalmazás indítását. Hagyja meg e-mail címét, hogy elsőként értesüljön.",
   faq3Q: "Ingyenes lesz a KWTD?",
   faq3A: "Az alapfunkciók ingyenesek lesznek. Prémium verziót is tervezünk.",
   faq4Q: "Milyen platformokon lesz elérhető?",
@@ -1819,7 +1830,7 @@ const ro: Translations = {
     "KWTD (Know What To Do) este o platformă educațională inteligentă pentru pregătirea situațiilor de urgență.",
   faq2Q: "Când va fi disponibilă aplicația?",
   faq2A:
-    "Planificăm lansarea în 2025. Lăsați e-mailul pentru a fi primul care află.",
+    "Planificăm lansarea completă a aplicației în iunie 2026. Lăsați e-mailul pentru a fi primul care află.",
   faq3Q: "Va fi KWTD gratuit?",
   faq3A: "Funcțiile de bază vor fi gratuite. Planificăm și o versiune Premium.",
   faq4Q: "Pe ce platforme va fi disponibil?",
@@ -1967,7 +1978,7 @@ const bg: Translations = {
     "KWTD (Know What To Do) е интелигентна образователна платформа за подготовка при извънредни ситуации.",
   faq2Q: "Кога ще бъде достъпно приложението?",
   faq2A:
-    "Планираме стартиране през 2025 г. Оставете имейла си, за да научите първи.",
+    "Планираме пълен старт на приложението през юни 2026 г. Оставете имейла си, за да научите първи.",
   faq3Q: "KWTD безплатно ли е?",
   faq3A: "Основните функции ще бъдат безплатни. Планираме и Premium версия.",
   faq4Q: "На какви платформи ще бъде достъпно?",
@@ -2112,7 +2123,8 @@ const hr: Translations = {
   faq1A:
     "KWTD (Know What To Do) je inteligentna obrazovna platforma za pripremu na hitne situacije.",
   faq2Q: "Kada će aplikacija biti dostupna?",
-  faq2A: "Planiramo pokretanje 2025. Ostavite e-mail da saznate prvi.",
+  faq2A:
+    "Planiramo potpuno pokretanje aplikacije u lipnju 2026. Ostavite e-mail da saznate prvi.",
   faq3Q: "Hoće li KWTD biti besplatan?",
   faq3A: "Osnovne funkcije bit će besplatne. Planiramo i Premium verziju.",
   faq4Q: "Na kojim platformama će biti dostupan?",
@@ -2256,7 +2268,8 @@ const sr: Translations = {
   faq1A:
     "KWTD (Know What To Do) je inteligentna obrazovna platforma za pripremu na hitne situacije.",
   faq2Q: "Kada će aplikacija biti dostupna?",
-  faq2A: "Planiramo pokretanje 2025. Ostavite e-mail da saznate prvi.",
+  faq2A:
+    "Planiramo potpuno pokretanje aplikacije u lipnju 2026. Ostavite e-mail da saznate prvi.",
   faq3Q: "Hoće li KWTD biti besplatan?",
   faq3A: "Osnovne funkcije biće besplatne. Planiramo i Premium verziju.",
   faq4Q: "Na kojim platformama će biti dostupan?",
@@ -2398,7 +2411,8 @@ const sl: Translations = {
   faq1A:
     "KWTD (Know What To Do) je inteligentna izobraževalna platforma za pripravo na nujne situacije.",
   faq2Q: "Kdaj bo aplikacija na voljo?",
-  faq2A: "Načrtujemo zagon leta 2025. Pustite e-naslov, da izveste prvi.",
+  faq2A:
+    "Načrtujemo polni zagon aplikacije junija 2026. Pustite e-naslov, da izveste prvi.",
   faq3Q: "Bo KWTD brezplačen?",
   faq3A: "Osnovne funkcije bodo brezplačne. Načrtujemo tudi Premium različico.",
   faq4Q: "Na katerih platformah bo na voljo?",
@@ -2540,7 +2554,7 @@ const lt: Translations = {
     "KWTD (Know What To Do) – išmani edukacinė platforma pasirengimui ekstremaliosioms situacijoms.",
   faq2Q: "Kada bus prieinama programa?",
   faq2A:
-    "Planuojame paleisti 2025 m. Palikite el. paštą, kad sužinotumėte pirmieji.",
+    "Planuojame visišką programos paleidimą 2026 m. birželį. Palikite el. paštą, kad sužinotumėte pirmieji.",
   faq3Q: "Ar KWTD bus nemokamas?",
   faq3A: "Pagrindinės funkcijos bus nemokamos. Planuojame ir Premium versiją.",
   faq4Q: "Kokiose platformose bus prieinamas?",
@@ -2686,7 +2700,7 @@ const lv: Translations = {
     "KWTD (Know What To Do) ir inteliģenta izglītojoša platforma ārkārtas situāciju sagatavošanai.",
   faq2Q: "Kad lietotne būs pieejama?",
   faq2A:
-    "Plānojam palaišanu 2025. gadā. Atstājiet e-pastu, lai uzzinātu pirmie.",
+    "Plānojam pilnīgu lietotnes palaišanu 2026. gada jūnijā. Atstājiet e-pastu, lai uzzinātu pirmie.",
   faq3Q: "Vai KWTD būs bezmaksas?",
   faq3A: "Pamatfunkcijas būs bezmaksas. Plānojam arī Premium versiju.",
   faq4Q: "Kādās platformās tas būs pieejams?",
@@ -2830,7 +2844,7 @@ const et: Translations = {
     "KWTD (Know What To Do) on nutikas haridusplatvorm hädaolukordadeks valmistumiseks.",
   faq2Q: "Millal rakendus saadaval on?",
   faq2A:
-    "Kavandame käivitamist 2025. aastal. Jätke e-post, et saada teada esimesena.",
+    "Kavandame rakenduse täielikku käivitamist 2026. aasta juunis. Jätke e-post, et saada teada esimesena.",
   faq3Q: "Kas KWTD on tasuta?",
   faq3A: "Põhifunktsioonid on tasuta. Plaanime ka Premium versiooni.",
   faq4Q: "Millistel platvormidel see saadaval on?",
@@ -2979,7 +2993,7 @@ const fi: Translations = {
     "KWTD (Know What To Do) on älykäs koulutusplattformi hätätilanteiden varautumiseen.",
   faq2Q: "Milloin sovellus on saatavilla?",
   faq2A:
-    "Suunnittelemme lanseerausta 2025. Jätä sähköpostisi saadaksesi tietää ensimmäisenä.",
+    "Suunnittelemme sovelluksen täyden julkaisun kesäkuussa 2026. Jätä sähköpostisi saadaksesi tietää ensimmäisenä.",
   faq3Q: "Onko KWTD ilmainen?",
   faq3A: "Perustoiminnot ovat ilmaisia. Suunnittelemme myös Premium-versiota.",
   faq4Q: "Millä alustoilla se on saatavilla?",
@@ -3122,7 +3136,8 @@ const sv: Translations = {
   faq1A:
     "KWTD (Know What To Do) är en intelligent utbildningsplattform för beredskap inför nödsituationer.",
   faq2Q: "När är appen tillgänglig?",
-  faq2A: "Vi planerar lansering 2025. Lämna din e-post för att få veta först.",
+  faq2A:
+    "Vi planerar lansering av den fullständiga appen i juni 2026. Lämna din e-post för att få veta först.",
   faq3Q: "Är KWTD gratis?",
   faq3A: "Grundfunktioner är gratis. Vi planerar även en Premium-version.",
   faq4Q: "På vilka plattformar finns det?",
@@ -3265,7 +3280,7 @@ const da: Translations = {
     "KWTD (Know What To Do) er en intelligent uddannelsesplatform til beredskab over for nødsituationer.",
   faq2Q: "Hvornår er appen tilgængelig?",
   faq2A:
-    "Vi planlægger lancering i 2025. Efterlad din e-mail for at få besked først.",
+    "Vi planlægger den fulde app-lancering i juni 2026. Efterlad din e-mail for at få besked først.",
   faq3Q: "Er KWTD gratis?",
   faq3A:
     "Grundlæggende funktioner er gratis. Vi planlægger også en Premium-version.",
@@ -3407,7 +3422,7 @@ const no: Translations = {
     "KWTD (Know What To Do) er en intelligent utdanningsplattform for beredskap mot nødsituasjoner.",
   faq2Q: "Når er appen tilgjengelig?",
   faq2A:
-    "Vi planlegger lansering i 2025. Legg igjen e-posten for å få vite først.",
+    "Vi planlegger full app-lansering i juni 2026. Legg igjen e-posten for å få vite først.",
   faq3Q: "Er KWTD gratis?",
   faq3A:
     "Grunnleggende funksjoner er gratis. Vi planlegger også en Premium-versjon.",
