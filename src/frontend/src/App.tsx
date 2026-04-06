@@ -9,6 +9,7 @@ import { PolicyModal } from "@/components/PolicyModal";
 import { ProblemSection } from "@/components/ProblemSection";
 import { QuizModal } from "@/components/QuizModal";
 import { QuizSection } from "@/components/QuizSection";
+import { TeamSection } from "@/components/TeamSection";
 import { Toaster } from "@/components/ui/sonner";
 import { gdprRodoPolicy, privacyPolicy, termsOfUse } from "@/data/policies";
 import { useMetaTags } from "@/hooks/useMetaTags";
@@ -56,6 +57,7 @@ export default function App() {
         <ProblemSection t={t} />
         <HowItWorksSection t={t} />
         <QuizSection t={t} onStartQuiz={() => setQuizOpen(true)} />
+        <TeamSection t={t} />
         <FaqSection t={t} />
       </main>
 

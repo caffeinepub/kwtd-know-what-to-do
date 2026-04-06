@@ -139,6 +139,7 @@ export interface Translations {
   comingSoonSuccessDesc: string;
   // FAQ
   faqTitle: string;
+  teamTitle: string;
   faq1Q: string;
   faq1A: string;
   faq2Q: string;
@@ -293,6 +294,7 @@ const pl: Translations = {
   comingSoonSuccessDesc:
     "Jesteś na liście! Powiadomimy Cię, gdy KWTD będzie gotowe.",
   faqTitle: "Często zadawane pytania",
+  teamTitle: "Nasz Zespół",
   faq1Q: "Czym jest KWTD?",
   faq1A:
     "KWTD (Know What To Do) to inteligentna platforma edukacyjna pomagająca ludziom przygotować się na sytuacje kryzysowe: pożary, powodzie, trzęsienia ziemi i inne zagrożenia.",
@@ -451,6 +453,7 @@ const en: Translations = {
   comingSoonSuccessDesc:
     "You're on the list! We'll notify you when KWTD is ready.",
   faqTitle: "Frequently Asked Questions",
+  teamTitle: "Our Team",
   faq1Q: "What is KWTD?",
   faq1A:
     "KWTD (Know What To Do) is a smart educational platform helping people prepare for emergency situations: fires, floods, earthquakes, and other threats.",
@@ -538,6 +541,7 @@ const de: Translations = {
   comingSoonSubmit: "Ich möchte der Erste sein!",
   comingSoonEmailPlaceholder: "ihre@email.com",
   faqTitle: "Häufig gestellte Fragen",
+  teamTitle: "Unser Team",
   faq2Q: "Wann ist die App verfügbar?",
   faq2A:
     "Wir planen die vollständige App-Einführung im Juni 2026. Hinterlassen Sie Ihre E-Mail, um als Erster informiert zu werden.",
@@ -611,6 +615,7 @@ const fr: Translations = {
   comingSoonSubmit: "Je veux être le premier!",
   comingSoonEmailPlaceholder: "votre@email.com",
   faqTitle: "Questions fréquentes",
+  teamTitle: "Notre Équipe",
   faq2Q: "Quand l'application sera-t-elle disponible?",
   faq2A:
     "Nous prévoyons de lancer l'application complète en juin 2026. Laissez votre email pour être le premier informé.",
@@ -682,6 +687,7 @@ const es: Translations = {
   comingSoonSubmit: "¡Quiero ser el primero!",
   comingSoonEmailPlaceholder: "tu@email.com",
   faqTitle: "Preguntas frecuentes",
+  teamTitle: "Nuestro Equipo",
   faq2Q: "¿Cuándo estará disponible la app?",
   faq2A:
     "Planeamos lanzar la aplicación completa en junio de 2026. Deja tu email para ser el primero en saberlo.",
@@ -808,6 +814,7 @@ const ru: Translations = {
   comingSoonSuccessDesc:
     "Ты в списке! Мы уведомим тебя, когда KWTD будет готово.",
   faqTitle: "Часто задаваемые вопросы",
+  teamTitle: "Наша Команда",
   faq1Q: "Что такое KWTD?",
   faq1A:
     "KWTD (Know What To Do) — умная образовательная платформа для подготовки к ЧС.",
@@ -954,6 +961,7 @@ const uk: Translations = {
   comingSoonSuccessDesc:
     "Ти в списку! Ми сповістимо тебе, коли KWTD буде готовий.",
   faqTitle: "Часті запитання",
+  teamTitle: "Наша Команда",
   faq1Q: "Що таке KWTD?",
   faq1A:
     "KWTD (Know What To Do) — розумна освітня платформа для підготовки до НС.",
@@ -1110,6 +1118,7 @@ const it: Translations = {
   comingSoonSuccessDesc:
     "Sei nella lista! Ti avviseremo quando KWTD sarà pronto.",
   faqTitle: "Domande frequenti",
+  teamTitle: "Il Nostro Team",
   faq1Q: "Cos'è KWTD?",
   faq1A:
     "KWTD (Know What To Do) è una piattaforma educativa intelligente per prepararsi alle emergenze.",
@@ -1263,6 +1272,7 @@ const nl: Translations = {
   comingSoonSuccessDesc:
     "U staat op de lijst! We laten u weten wanneer KWTD klaar is.",
   faqTitle: "Veelgestelde vragen",
+  teamTitle: "Ons Team",
   faq1Q: "Wat is KWTD?",
   faq1A:
     "KWTD (Know What To Do) is een slim educatief platform dat mensen helpt zich voor te bereiden op noodsituaties.",
@@ -1412,6 +1422,7 @@ const cs: Translations = {
   comingSoonSuccessDesc:
     "Jste na seznamu! Upozorníme vás, až bude KWTD připraven.",
   faqTitle: "Časté dotazy",
+  teamTitle: "Náš Tým",
   faq1Q: "Co je KWTD?",
   faq1A:
     "KWTD (Know What To Do) je inteligentní vzdělávací platforma pro přípravu na nouzové situace.",
@@ -1563,6 +1574,7 @@ const sk: Translations = {
   comingSoonSuccessDesc:
     "Ste na zozname! Upozorníme vás, keď bude KWTD pripravený.",
   faqTitle: "Časté otázky",
+  teamTitle: "Náš Tím",
   faq1Q: "Čo je KWTD?",
   faq1A:
     "KWTD (Know What To Do) je inteligentná vzdelávacia platforma pre prípravu na núdzové situácie.",
@@ -1719,6 +1731,7 @@ const hu: Translations = {
   comingSoonSuccessDesc:
     "Felkerült a listára! Értesítjük, amikor a KWTD készen áll.",
   faqTitle: "Gyakran ismételt kérdések",
+  teamTitle: "Csapatunk",
   faq1Q: "Mi az a KWTD?",
   faq1A:
     "A KWTD (Know What To Do) egy intelligens oktatási platform vészhelyzetekre való felkészüléshez.",
@@ -1874,6 +1887,7 @@ const ro: Translations = {
   comingSoonSuccessDesc:
     "Sunteți pe listă! Vă vom notifica când KWTD este gata.",
   faqTitle: "Întrebări frecvente",
+  teamTitle: "Echipa Noastră",
   faq1Q: "Ce este KWTD?",
   faq1A:
     "KWTD (Know What To Do) este o platformă educațională inteligentă pentru pregătirea situațiilor de urgență.",
@@ -2027,6 +2041,7 @@ const bg: Translations = {
   comingSoonSuccess: "Чудесно!",
   comingSoonSuccessDesc: "В списъка сте! Ще ви уведомим, когато KWTD е готов.",
   faqTitle: "Често задавани въпроси",
+  teamTitle: "Нашият Екип",
   faq1Q: "Какво е KWTD?",
   faq1A:
     "KWTD (Know What To Do) е интелигентна образователна платформа за подготовка при извънредни ситуации.",
@@ -2178,6 +2193,7 @@ const hr: Translations = {
   comingSoonSuccessDesc:
     "Na popisu ste! Obavijestit ćemo vas kad KWTD bude spreman.",
   faqTitle: "Česta pitanja",
+  teamTitle: "Naš Tim",
   faq1Q: "Što je KWTD?",
   faq1A:
     "KWTD (Know What To Do) je inteligentna obrazovna platforma za pripremu na hitne situacije.",
@@ -2328,6 +2344,7 @@ const sr: Translations = {
   comingSoonSuccessDesc:
     "Na listi ste! Obavestićemo vas kad KWTD bude spreman.",
   faqTitle: "Česta pitanja",
+  teamTitle: "Naš Tim",
   faq1Q: "Šta je KWTD?",
   faq1A:
     "KWTD (Know What To Do) je inteligentna obrazovna platforma za pripremu na hitne situacije.",
@@ -2476,6 +2493,7 @@ const sl: Translations = {
   comingSoonSuccessDesc:
     "Na seznamu ste! Obvestili vas bomo, ko bo KWTD pripravljen.",
   faqTitle: "Pogosta vprašanja",
+  teamTitle: "Naša Ekipa",
   faq1Q: "Kaj je KWTD?",
   faq1A:
     "KWTD (Know What To Do) je inteligentna izobraževalna platforma za pripravo na nujne situacije.",
@@ -2623,6 +2641,7 @@ const lt: Translations = {
   comingSoonSuccess: "Puiku!",
   comingSoonSuccessDesc: "Esate sąraše! Informuosime, kai KWTD bus paruoštas.",
   faqTitle: "Dažniausiai užduodami klausimai",
+  teamTitle: "Mūsų Komanda",
   faq1Q: "Kas yra KWTD?",
   faq1A:
     "KWTD (Know What To Do) – išmani edukacinė platforma pasirengimui ekstremaliosioms situacijoms.",
@@ -2774,6 +2793,7 @@ const lv: Translations = {
   comingSoonSuccess: "Lieliski!",
   comingSoonSuccessDesc: "Jūs esat sarakstā! Informēsim, kad KWTD būs gatavs.",
   faqTitle: "Biežāk uzdotie jautājumi",
+  teamTitle: "Mūsu Komanda",
   faq1Q: "Kas ir KWTD?",
   faq1A:
     "KWTD (Know What To Do) ir inteliģenta izglītojoša platforma ārkārtas situāciju sagatavošanai.",
@@ -2923,6 +2943,7 @@ const et: Translations = {
   comingSoonSuccessDesc:
     "Olete nimekirjas! Teavitame teid, kui KWTD on valmis.",
   faqTitle: "Korduma kippuvad küsimused",
+  teamTitle: "Meie Meeskond",
   faq1Q: "Mis on KWTD?",
   faq1A:
     "KWTD (Know What To Do) on nutikas haridusplatvorm hädaolukordadeks valmistumiseks.",
@@ -3077,6 +3098,7 @@ const fi: Translations = {
   comingSoonSuccessDesc:
     "Olet listalla! Ilmoitamme sinulle kun KWTD on valmis.",
   faqTitle: "Usein kysytyt kysymykset",
+  teamTitle: "Tiimimme",
   faq1Q: "Mikä on KWTD?",
   faq1A:
     "KWTD (Know What To Do) on älykäs koulutusplattformi hätätilanteiden varautumiseen.",
@@ -3226,6 +3248,7 @@ const sv: Translations = {
   comingSoonSuccess: "Fantastiskt!",
   comingSoonSuccessDesc: "Du är på listan! Vi meddelar dig när KWTD är klart.",
   faqTitle: "Vanliga frågor",
+  teamTitle: "Vårt Team",
   faq1Q: "Vad är KWTD?",
   faq1A:
     "KWTD (Know What To Do) är en intelligent utbildningsplattform för beredskap inför nödsituationer.",
@@ -3374,6 +3397,7 @@ const da: Translations = {
   comingSoonSuccessDesc:
     "Du er på listen! Vi giver dig besked når KWTD er klar.",
   faqTitle: "Ofte stillede spørgsmål",
+  teamTitle: "Vores Team",
   faq1Q: "Hvad er KWTD?",
   faq1A:
     "KWTD (Know What To Do) er en intelligent uddannelsesplatform til beredskab over for nødsituationer.",
@@ -3521,6 +3545,7 @@ const no: Translations = {
   comingSoonSuccessDesc:
     "Du er på listen! Vi gir deg beskjed når KWTD er klar.",
   faqTitle: "Ofte stilte spørsmål",
+  teamTitle: "Vårt Team",
   faq1Q: "Hva er KWTD?",
   faq1A:
     "KWTD (Know What To Do) er en intelligent utdanningsplattform for beredskap mot nødsituasjoner.",
